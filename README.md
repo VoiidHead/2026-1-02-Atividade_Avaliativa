@@ -13,8 +13,8 @@
 - [X] 1. Fork desse repositório
 - [X] 2. Substitui neste arquivo (`README.md`) de `FIXME` pelo seu nome
 - [X] 3. Abrir o VS Code local ou o _codespaces_ para criar os arquivos respostas da avaliação. Preferível o _codespaces_.
-- [ ] 4. Responder as questões abaixo.
-- [ ] 5. Publicar no Github suas repostas.
+- [X] 4. Responder as questões abaixo.
+- [X] 5. Publicar no Github suas repostas.
 
 > 💡 **Dica 01:** Preste atenção nos nomes dos arquivos especificados no texto das questões.
 
