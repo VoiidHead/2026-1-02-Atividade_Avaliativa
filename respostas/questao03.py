@@ -8,15 +8,20 @@ while True:
     else:
         numero = int(input('Tem que ser positivo, pô!\nInteiro Positivo: '))
         print('\n')
-lilBludMaioria = []
+lilBludMaioria = 0
 hãâ = 1
 
-while hãâ <= sqrt(numero):
+while hãâ <= int(sqrt(numero)):
+
     if numero % hãâ == 0:
-        lilBludMaioria.append(hãâ)
+        if hãâ != numero:
+            lilBludMaioria += hãâ
+
+        if numero // hãâ != hãâ and numero // hãâ != numero:
+            lilBludMaioria += numero // hãâ
     hãâ += 1
 
-if sum(lilBludMaioria) == numero:
+if lilBludMaioria == numero:
     print(f'{numero} é perfeito')
 else:
     print(f'{numero} não é perfeito')
