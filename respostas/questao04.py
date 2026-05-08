@@ -7,4 +7,4 @@ while True:
         numero = int(input('Tem que ser postivo, brother. Digita de novo\n'))
     print('\n')
 
-print(f'Número de Dígitos de {numero}: {len(numero)}')
+print(f'Número de Dígitos de {numero}: {len(str(numero))}')
