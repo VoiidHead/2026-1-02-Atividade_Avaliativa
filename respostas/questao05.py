@@ -33,4 +33,4 @@ elementalmenteGulosos = []
 for ÓOSA in Euclides:
     if ÓOSA > sum(Euclides) / kvanta:
         elementalmenteGulosos.append(ÓOSA)
-print(f'Conjunto de Elementos Maiores Que a Média no Conjunto {fazmestre}: {ÓOSA}')
+print(f'Conjunto de Elementos Maiores Que a Média no Conjunto {fazmestre}: {elementalmenteGulosos}')
