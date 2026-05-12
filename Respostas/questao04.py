@@ -1,4 +1,3 @@
-numero = input("Insira um número inteiro:")
-digitos = len(numero)
+numero = input("Insira um número inteiro: ")
 
-print(f"O número de digitos é: {digitos}")
+print(f"O número de digitos é: {len(numero)}")
